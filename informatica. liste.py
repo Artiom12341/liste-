@@ -1,0 +1,13 @@
+with open  ('input.txt','r') as f:
+    x=list(eval(f.readline()))
+print('Lista initiala=',x)
+y=sorted(x)
+print('ord . crescator=',y)
+i=sorted(x,reverse=True)
+print('ord. descresctor=',i)
+print('lungimea listei=',len(x))
+print('MAX listei=',max(x))
+print('MIN listei=',min(x))
+print('lista.4=',x+[111])
+x.insert(2,222)
+print('lista mod.2=',x)
